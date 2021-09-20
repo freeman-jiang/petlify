@@ -7,7 +7,7 @@ Petlify is a full stack web app that allows users to browse for pets using the [
 **Technologies**: Firebase (Real-Time Database, Authentication, Hosting), OAuth 2.0, Git, Bulma, HTML, CSS, JS
 
 ## Hosted App
-Finished product available at: https://petlify-b4a28.web.app/
+https://petlify-b4a28.web.app/
 
 ## Screenshots
 ![Screenshot 2021-09-19 220418](https://user-images.githubusercontent.com/56516912/133951860-2e398229-44da-49f3-b970-43bc6c3ebbeb.png)
