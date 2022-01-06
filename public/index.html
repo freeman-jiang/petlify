@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Petlify</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" href="./css/index.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
 
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/8.8.1/firebase-app.js"></script>
@@ -26,56 +29,59 @@
     -->
     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
     <script defer src="js/signIn.js"></script>
-
-    
   </head>
   <body class="gradient">
     <!-- NAVBAR -->
-  <nav class="navbar is-white petlifyNavbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item has-text-black is-size-4 has-text-weight-bold" href="index.html">
-        Petlify
-      </a>
-    
-      <a class="navbar-item ml-1" href="index.html">
-        Home
-      </a>
-      <a class="navbar-item" href="about.html">
-        About
-      </a>
-     
-  
-      <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-  
-    <div id="navMenu" class="navbar-menu">
+    <nav
+      class="navbar is-white petlifyNavbar"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a
+          class="navbar-item has-text-black is-size-4 has-text-weight-bold"
+          href="index.html"
+        >
+          Petlify
+        </a>
+
+        <a class="navbar-item ml-1" href="index.html"> Home </a>
+        <a class="navbar-item" href="about.html"> About </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          data-target="navMenu"
+          aria-label="menu"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navMenu" class="navbar-menu">
         <div class="navbar-end">
           <div class="navbar-item">
-              <a onclick="signIn()" class="has-text-black">
-                Log In
-              </a>
+            <a onclick="signIn()" class="has-text-black"> Log In </a>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-    <section class="hero background-img is-large">
+    <section class="hero background-img is-fullheight-with-navbar">
       <!-- Hero content: will be in the middle -->
       <div class="hero-body landing has-background-dark">
         <div class="container has-text-centered">
-          <h1 class="title is-size-1 has-text-white">
-            Adopt a Pet Today!
-          </h1>
-          <button class="button is-medium is-info" onclick="signIn()">Create Account</button>
+          <h1 class="title is-size-1 has-text-white">Adopt a Pet Today!</h1>
+          <button class="button is-medium is-info" onclick="signIn()">
+            Create Account
+          </button>
         </div>
       </div>
     </section>
-    
-    <script src="./js/navBar.js"></script>
 
+    <script src="./js/navBar.js"></script>
   </body>
 </html>
