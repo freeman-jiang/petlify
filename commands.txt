@@ -3,3 +3,6 @@ firebase emulators:start --only hosting
 
 GIT CLI shortcuts
 git commit -a -m "Cosmetics" && git push
+
+Deploy to Web
+firebase deploy --only hosting 
